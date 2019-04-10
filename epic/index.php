@@ -20,12 +20,13 @@
 					<li><strong>Gender:</strong> <em>Male</em></li>
 				</ul>
 
-				<h3>Interests and Hobbies</h3>
+				<h3>Attitudes & Needs</h3>
 					<ul>
-					<li>Loves to be outdoors.</li>
-					<li>Volunteers at the Soup Kitchen, and dog pound.</li>
-					<li>Enjoys Skateboarding.</li>
-					<li>Likes to drive fast cars.</li>
+					<li>Has a great positive attitude.</li>
+					<li>Is always happy and helps others.</li>
+					<li>Chooses rastaclat.com because they are
+						the only one that sells them</li>
+					<li>Loves the style of the bracelet.</li>
 					</ul>
 
 		<a href="story.php">Page 2</a>

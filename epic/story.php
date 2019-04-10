@@ -9,8 +9,8 @@
 
 		<h1>Austins Story</h1>
 
-		<p>As a Power User Austin wants to
-			spread positivity through the product.
+		<p>As a Power User I want to
+			add multiple items to my list.
 		</p>
 
 		<a href="index.php">Page 1</a>
