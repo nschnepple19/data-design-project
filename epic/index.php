@@ -32,7 +32,7 @@
 					due to his limited device availability.</li>
 					</ul>
 
-		<a class="nicks-button" href="story.php">Page 2</a>
+		<a href="story.php" >Page 2</a>
 
 </body>
 

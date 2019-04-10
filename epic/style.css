@@ -1,17 +1,13 @@
 h1 {
-	color: red;
+	color: navy;
 }
 
-.nicks-button {
-	padding: 40rem;
-	color: green;
+
+h2 {
+	color: midnightblue;
 }
 
-.buttonToPage1 {
-	padding: 40rem;
-	color: green;
-}
 
-.buttonToPage2 {
-	padding: 40rem;
+strong {
+	color: darkcyan;
 }

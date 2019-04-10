@@ -14,8 +14,8 @@
 			add multiple items to my Shopping List.
 		</p>
 
-		<a class="buttonToPage1" href="index.php">Page 1</a>
+		<a href="index.php" >Page 1</a>
 
-		<a class="buttonToPage2" href="usecase.php">Page 3</a>
+		<a href="usecase.php">Page 3</a>
 
 	</body>
