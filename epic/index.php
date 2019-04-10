@@ -28,6 +28,8 @@
 					<li>Likes to drive fast cars.</li>
 					</ul>
 
+		<a href="story.php">Page 2</a>
+
 </body>
 
 
