@@ -35,7 +35,11 @@
 			<li>He adds a promo code he has for being a power user.</li>
 			<li>Austin enters all his information in the required feilds.</li>
 			<li>He selects the checkout icon and a conformation email is sent.</li>
+			<li>He is satisfied with the experience on the site, and the
+			product received.</li>
 		</ol>
+
+		<p><strong>Visits Per Week:</strong> 3 times per week.</p>
 
 			<a href="index.php">Page 1</a>
 			<a href="story.php">Page 2</a>
