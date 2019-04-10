@@ -30,14 +30,15 @@
 				in the search engine.</li>
 			<li>The site opens up to the Main Menu.</li>
 			<li>Austin Clicks the Men's dropdown tab.</li>
-			<li>A list of best sellers and new arrivals are shown.</li>
-			<li><strong>rastaclat.com</strong> gives Austin many choices.</li>
+			<li>The site gives a list of Mens Featured Items</li>
+			<li><strong>rastaclat.com</strong> narrows down his choices.</li>
 			<li>He chooses which one he likes and adds it to his cart.</li>
-			<li>He adds a promo code he has for being a power user.</li>
-			<li>Austin enters all his information in the required feilds.</li>
-			<li>He selects the checkout icon and a conformation email is sent.</li>
-			<li>He is satisfied with the experience on the site, and the
-			product received.</li>
+			<li>The Site offers him a promo code for being a power user.</li>
+			<li>The site displays information fields for him to fill out.</li>
+			<li>He fills out the required fields.</li>
+			<li>The site redirects him to a checkout screen.</li>
+			<li>Austin checks out and the site sends him a receipt via email.</li>
+			<li>The Site displays a tracking number and a link the item.</li>
 		</ol>
 
 		<p><strong>Visits Per Week:</strong> 3 times per week.</p>
