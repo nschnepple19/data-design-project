@@ -25,8 +25,8 @@
 					<li>Has a great positive attitude.</li>
 					<li>Is always happy and helps others.</li>
 					<li>Chooses rastaclat.com because they are
-						the only one that sells them</li>
-					<li>Loves the style of the bracelet.</li>
+						simple and easy to use.</li>
+					<li>Needs Easy to navigate links.</li>
 					</ul>
 
 		<a href="story.php">Page 2</a>

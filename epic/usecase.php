@@ -8,30 +8,30 @@
 	<body>
 
 	<h1>
-		Use Case
+		Use Case & Interaction Flow
 	</h1>
 
-	<ul>
-		<li>As a power user <em>Austin</em> wants
-		quick search for items</li>
+		<p><strong>Power User</strong> Austin wants to spread the
+		positivity by buying a bracelet. He wants easy to type
+		information. He also wants to be able to type in promo codes.</p>
 
-		<li>As a power user <em>Austin</em> wants easy to
-			fill information
-		 </li>
+		<p>
+			<strong>Precondition:</strong> <em>None</em>
+		</p>
 
-		<li>As a power user <em>Austin</em> wants easy
-			purchasing.
-		</li>
+		<p>
+			<strong>Postcondition:</strong> <em>He returns to the
+			website to see new offers.</em>
+		</p>
 
-		<li>As a power user <em>Austin</em> wants promo codes.</li>
-	</ul>
-
-		<h2>Interaction Flow</h2>
-
-	<ul>
-		<li>Austin searches for
-		 <strong> rastaclat.com </strong> in a search engine.</li>
-	</ul>
+		<ol>
+			<li>Austin Searches for <strong>rastaclat.com</strong>
+				in the search engine.</li>
+			<li>The site opens up to the Main Menu</li>
+			<li>Austin Clicks the Men's dropdown tab.</li>
+			<li>A list of best sellers and new arrivals are shown.</li>
+			<li><strong>rastaclat.com</strong> gives Austin many choices</li>
+		</ol>
 
 			<a href="index.php">Page 1</a>
 			<a href="story.php">Page 2</a>
