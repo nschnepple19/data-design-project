@@ -27,10 +27,13 @@
 		<ol>
 			<li>Austin Searches for <strong>rastaclat.com</strong>
 				in the search engine.</li>
-			<li>The site opens up to the Main Menu</li>
+			<li>The site opens up to the Main Menu.</li>
 			<li>Austin Clicks the Men's dropdown tab.</li>
 			<li>A list of best sellers and new arrivals are shown.</li>
-			<li><strong>rastaclat.com</strong> gives Austin many choices</li>
+			<li><strong>rastaclat.com</strong> gives Austin many choices.</li>
+			<li>He chooses which one he likes and adds it to his cart.</li>
+			<li>Austin enters all his information in the required feilds.</li>
+			<li>He selects the checkout icon and a conformation email is sent.</li>
 		</ol>
 
 			<a href="index.php">Page 1</a>
