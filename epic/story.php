@@ -9,10 +9,8 @@
 
 		<h1>Austins Story</h1>
 
-		<p>After the loss of a very good friend, Austin found himself
-			searching for <strong>positive</strong> people who like to spread positivity.
-			There is so much negative posts on social media and on the news
-			That Austin wanted to seek out Organizations that offered <strong>positive</strong> messages.
+		<p>As a Power User Austin wants to
+			spread positivity through the product.
 		</p>
 
 		<a href="index.php">Page 1</a>
