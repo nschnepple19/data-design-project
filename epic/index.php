@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="UTF-8">
 	<title>Data Design Project</title>
+	<link rel="stylesheet" href="style.css"
 	</head>
 
 	<body>
@@ -31,7 +32,7 @@
 					due to his limited device availability.</li>
 					</ul>
 
-		<a href="story.php">Page 2</a>
+		<a class="nicks-button" href="story.php">Page 2</a>
 
 </body>
 
