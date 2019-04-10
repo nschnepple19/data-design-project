@@ -13,7 +13,7 @@
 		<img src="Austin.jpg" height="256" width="244" alt="Smiley Face"
 				<ul>
 					<li><strong>Name:</strong> <em>Austin Martin</em></li>
-					<li><strong>Occupation:</strong> <em>Artists</em></li>
+					<li><strong>Occupation:</strong> <em>Artist</em></li>
 					<li><strong>Age:</strong> <em>28 Years Old</em></li>
 					<li><strong>Technology:</strong> <em>SmartPhone</em></li>
 					<li><strong>Technical Proficiency:</strong> <em>10/10</em></li>
