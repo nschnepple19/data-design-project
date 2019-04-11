@@ -26,19 +26,15 @@
 		</p>
 
 		<ol>
-			<li>Austin Searches for <strong>rastaclat.com</strong>
-				in the search engine.</li>
-			<li>The site opens up to the Main Menu.</li>
-			<li>Austin Clicks the Men's dropdown tab.</li>
-			<li>The site gives a list of Mens Featured Items</li>
-			<li><strong>rastaclat.com</strong> narrows down his choices.</li>
-			<li>He chooses which one he likes and adds it to his cart.</li>
-			<li>The Site offers him a promo code for being a power user.</li>
-			<li>The site displays information fields for him to fill out.</li>
-			<li>He fills out the required fields.</li>
-			<li>The site redirects him to a checkout screen.</li>
-			<li>Austin checks out and the site sends him a receipt via email.</li>
-			<li>The Site displays a tracking number and a link the item.</li>
+			<li>Austin searches for <strong>rastaclat.com</strong>
+			in the search engine.</li>
+			<li>The site displays multiple pages of bracelets available.</li>
+			<li>Austin sees a bracelet he likes, and he clicks on it.</li>
+			<li>The site shows a return to list, and a add to cart feature.</li>
+			<li>Austin adds the selected item to cart and returns to list.</li>
+			<li>The site then displays the original list shown previously.</li>
+			<li>Austin sees a second bracelet he really likes and adds it to his cart.</li>
+			<li>The site now shows two items in Austins cart.</li>
 		</ol>
 
 		<p><strong>Visits Per Week:</strong> 3 times per week.</p>

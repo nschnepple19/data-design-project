@@ -7,11 +7,12 @@
 	</head>
 
 	<body>
-		<h1>Data Design Project</h1>
+		<h1> Data Design Project</h1>
 
 		<h2>Persona</h2>
 
 		<img src="Austin.jpg" height="256" width="244" alt="Smiley Face"
+
 				<ul>
 					<li><strong>Name:</strong> <em>Austin Martin</em></li>
 					<li><strong>Occupation:</strong> <em>Artist</em></li>
