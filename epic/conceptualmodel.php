@@ -21,4 +21,14 @@
 		 <li>customerPhoneNumber</li>
 	 </ul>
 
+	 <p><strong>Order:</strong></p>
+
+	 <ul>
+		 <li>orderId <strong>(PK)</strong></li>
+		 <li>orderCustomerId <strong>(FK)</strong></li>
+		 <li>orderDateShipped <strong>(FK)</strong></li>
+	 </ul>
+
+	 <p>orderItem:</p>
+
  </body>
