@@ -10,6 +10,15 @@
 
 	 <h1>Entities & Attributes</h1>
 
-	 <p></p>
+	 <p><strong>Customer:</strong></p>
+
+	 <ul>
+		 <li>customerId <strong>(PK)</strong></li>
+		 <li>customerFirstName</li>
+		 <li>customerLastName</li>
+		 <li>customerAdress</li>
+		 <li>customerCity</li>
+		 <li>customerPhoneNumber</li>
+	 </ul>
 
  </body>
