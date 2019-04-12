@@ -29,6 +29,18 @@
 		 <li>orderDateShipped <strong>(FK)</strong></li>
 	 </ul>
 
-	 <p>orderItem:</p>
+	 <p><strong>orderItem:</strong></p>
+
+	 <ul>
+		 <li>orderItemOrderId <strong>(Fk)</strong></li>
+		 <li>orderItemItemId <strong>(FK)</strong></li>
+	 </ul>
+
+	 <p><strong>Relations:</strong></p>
+
+	 <ul>
+		 <li>One order can have many Items <em>(1 to n)</em></li>
+		 <li>Many items can be in many orders <em>(m to n)</em></li>
+	 </ul>
 
  </body>
