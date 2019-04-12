@@ -41,5 +41,6 @@
 
 			<a href="index.php">Page 1</a>
 			<a href="story.php">Page 2</a>
+			<a href="conceptualmodel.php">Page 4</a>
 
 	</body>
