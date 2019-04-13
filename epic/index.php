@@ -7,6 +7,9 @@
 	</head>
 
 	<body>
+
+	<div class="box-1">
+
 		<h1> Data Design Project</h1>
 
 		<h2>Persona</h2>
@@ -33,9 +36,11 @@
 					due to his limited device availability.</li>
 					</ul>
 
-		<a href="story.php" >Page 2</a>
+					<div class="box-1-">
+						<a href="story.php" >Page 2</a>
+					</div>
+	</div>
 
 </body>
-
 
 </html>

@@ -1,22 +1,85 @@
+body{
+	font-family: sans-serif;
+}
+
 h1 {
-	color: navy;
+	color: black;
 }
 
 
 h2 {
-	color: midnightblue;
+	color: ghostwhite;
 }
 
 
 strong {
-	color: darkgoldenrod;
+	color: ghostwhite;
 }
 
 body {
-	background-color: slategrey;
+	background-color: ghostwhite;
 }
 
 a {
 	text-align: center;
 
+}
+
+a {
+	color: lightgray;
+}
+
+.box-1 {
+	background-color: darkred;
+	border-right: 5px black solid;
+	border-left: 5px black solid;
+	border-top: 5px black solid;
+	border-bottom: 5px black solid;
+}
+
+	.box-1- {
+		text-align: center;
+		font-weight: bolder;
+		padding: auto;
+}
+
+.box-2 {
+	background-color: darkred;
+	border-right: 5px black solid;
+	border-left: 5px black solid;
+	border-top: 5px black solid;
+	border-bottom: 5px black solid;
+	color: ghostwhite;
+}
+
+.box-2- {
+	text-align: center;
+	font-weight: bolder;
+	padding: auto;
+}
+
+.box-3 {
+	background-color: darkred;
+	border-right: 5px black solid;
+	border-left: 5px black solid;
+	border-top: 5px black solid;
+	border-bottom: 5px black solid;
+}
+
+.box-3- {
+	text-align: center;
+	font-weight: bolder;
+	padding: auto;
+}
+
+.box-4 {
+	background-color: darkred;
+	border-right: 5px black solid;
+	border-left: 5px black solid;
+	border-top: 5px black solid;
+	border-bottom: 5px black solid;
+}
+
+.box-4- {
+	font-weight: bolder;
 }

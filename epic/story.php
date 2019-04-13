@@ -8,14 +8,19 @@
 
 	<body>
 
-		<h1>Austins Story</h1>
+		<div class="box-2">
 
-		<p>As a Power User I want to
-			add multiple items to my Shopping List.
-		</p>
+			<h1>Austins Story</h1>
 
-		<a href="index.php" >Page 1</a>
+			<p>As a Power User I want to
+				add multiple items to my Shopping List.
+			</p>
 
-		<a href="usecase.php">Page 3</a>
+			<div class="box-2-">
+				<a href="index.php" >Page 1</a>
+
+				<a href="usecase.php">Page 3</a>
+			</div>
+		</div>
 
 	</body>

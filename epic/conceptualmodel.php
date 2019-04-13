@@ -8,6 +8,8 @@
 
  <body>
 
+	 <div class="box-4">
+
 	 <h1>Entities & Attributes</h1>
 
 	 <p><strong>Customer:</strong></p>
@@ -42,5 +44,13 @@
 		 <li>One order can have many Items <em>(1 to n)</em></li>
 		 <li>Many items can be in many orders <em>(m to n)</em></li>
 	 </ul>
+
+	 <img src="ERD.jpg" alt="ERD.jpg">
+
+	 <div class="-4-"
+	 	<a href="usecase.php">Back to Page 3</a>
+	 </div>
+
+	 </div>
 
  </body>

@@ -8,6 +8,8 @@
 
 	<body>
 
+	<div class="box-3">
+
 	<h1>
 		Use Case & Interaction Flow
 	</h1>
@@ -39,8 +41,11 @@
 
 		<p><strong>Visits Per Week:</strong> 3 times per week.</p>
 
-			<a href="index.php">Page 1</a>
-			<a href="story.php">Page 2</a>
+		<div class="box-3-">
+			<a href="story.php">Back to Page 2</a>
 			<a href="conceptualmodel.php">Page 4</a>
+		</div>
+
+		</div>
 
 	</body>
