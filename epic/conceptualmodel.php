@@ -51,6 +51,5 @@
 			<a href="usecase.php"> <-- Page 3 </a>
 	 	</div>
 
-	 </div>
 
  </body>
