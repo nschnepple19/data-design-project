@@ -10,46 +10,46 @@
 
 	 <div class="box-4">
 
-	 <h1>Entities & Attributes</h1>
+		 <h1>Entities & Attributes</h1>
 
-	 <p><strong>Customer:</strong></p>
+		 <p><strong>Customer:</strong></p>
 
-	 <ul>
-		 <li>customerId <strong>(PK)</strong></li>
-		 <li>customerFirstName</li>
-		 <li>customerLastName</li>
-		 <li>customerAdress</li>
-		 <li>customerCity</li>
-		 <li>customerPhoneNumber</li>
-	 </ul>
+		 <ul>
+			 <li>customerId <strong>(PK)</strong></li>
+			 <li>customerFirstName</li>
+			 <li>customerLastName</li>
+			 <li>customerAdress</li>
+			 <li>customerCity</li>
+			 <li>customerPhoneNumber</li>
+		 </ul>
 
-	 <p><strong>Order:</strong></p>
+		 <p><strong>Order:</strong></p>
 
-	 <ul>
-		 <li>orderId <strong>(PK)</strong></li>
-		 <li>orderCustomerId <strong>(FK)</strong></li>
-		 <li>orderDateShipped <strong>(FK)</strong></li>
-	 </ul>
+		 <ul>
+			 <li>orderId <strong>(PK)</strong></li>
+			 <li>orderCustomerId <strong>(FK)</strong></li>
+			 <li>orderDateShipped <strong>(FK)</strong></li>
+		 </ul>
 
-	 <p><strong>orderItem:</strong></p>
+		 <p><strong>orderItem:</strong></p>
 
-	 <ul>
-		 <li>orderItemOrderId <strong>(Fk)</strong></li>
-		 <li>orderItemItemId <strong>(FK)</strong></li>
-	 </ul>
+		 <ul>
+			 <li>orderItemOrderId <strong>(Fk)</strong></li>
+			 <li>orderItemItemId <strong>(FK)</strong></li>
+		 </ul>
 
-	 <p><strong>Relations:</strong></p>
+		 <p><strong>Relations:</strong></p>
 
-	 <ul>
-		 <li>One order can have many Items <em>(1 to n)</em></li>
-		 <li>Many items can be in many orders <em>(m to n)</em></li>
-	 </ul>
+		 <ul>
+			 <li>One order can have many Items <em>(1 to n)</em></li>
+			 <li>Many items can be in many orders <em>(m to n)</em></li>
+		 </ul>
 
-	 <img src="ERD.jpg" alt="ERD.jpg">
+		 <img src="ERD.jpg" alt="ERD.jpg">
 
-	 <div class="-4-"
-	 	<a href="usecase.php">Back to Page 3</a>
-	 </div>
+		 <div class="box-4-">
+			<a href="usecase.php"> <-- Page 3 </a>
+	 	</div>
 
 	 </div>
 

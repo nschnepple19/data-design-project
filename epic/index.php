@@ -37,7 +37,7 @@
 					</ul>
 
 					<div class="box-1-">
-						<a href="story.php" >Page 2</a>
+						<a href="story.php" > Page 2 --> </a>
 					</div>
 	</div>
 

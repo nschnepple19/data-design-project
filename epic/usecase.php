@@ -42,8 +42,8 @@
 		<p><strong>Visits Per Week:</strong> 3 times per week.</p>
 
 		<div class="box-3-">
-			<a href="story.php">Back to Page 2</a>
-			<a href="conceptualmodel.php">Page 4</a>
+			<a href="story.php"> <-- Page 2 </a>
+			<a href="conceptualmodel.php"> Page 4 --> </a>
 		</div>
 
 		</div>

@@ -17,9 +17,9 @@
 			</p>
 
 			<div class="box-2-">
-				<a href="index.php" >Page 1</a>
+				<a href="index.php" > <-- Page 1 </a>
 
-				<a href="usecase.php">Page 3</a>
+				<a href="usecase.php"> Page 3 --> </a>
 			</div>
 		</div>
 
