@@ -31,10 +31,19 @@
 			 <li>orderDateShipped <strong>(FK)</strong></li>
 		 </ul>
 
+		 <p><strong>Item:</strong></p>
+
+		 <ul>
+			 <li>itemId <strong>(FK)</strong></li>
+			 <li>itemCost</li>
+			 <li>itemName</li>
+			 <li>itemQuantity</li>
+		 </ul>
+
 		 <p><strong>orderItem:</strong></p>
 
 		 <ul>
-			 <li>orderItemOrderId <strong>(Fk)</strong></li>
+			 <li>orderItemOrderId <strong>(FK)</strong></li>
 			 <li>orderItemItemId <strong>(FK)</strong></li>
 		 </ul>
 
@@ -45,7 +54,7 @@
 			 <li>Many items can be in many orders <em>(m to n)</em></li>
 		 </ul>
 
-		 <img src="ERD.jpg" alt="ERD.jpg">
+		 <img src="NewERD.jpg" alt="ERD.jpg">
 
 		 <div class="box-4-">
 			<a href="usecase.php"> <-- Page 3 </a>
