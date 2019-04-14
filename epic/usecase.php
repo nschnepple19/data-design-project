@@ -28,7 +28,7 @@
 		</p>
 
 		<ol>
-			<li>Austin searches for <strong>rastaclat.com</strong>
+			<li>Austin searches for <a href="https://rastaclat.com">rastaclat.com</a>
 			in the search engine.</li>
 			<li>The site displays multiple pages of bracelets available.</li>
 			<li>Austin sees a bracelet he likes, and he clicks on it.</li>
