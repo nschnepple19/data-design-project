@@ -16,10 +16,10 @@
 
 		 <ul>
 			 <li>customerId <strong>(PK)</strong></li>
-			 <li>customerFirstName</li>
-			 <li>customerLastName</li>
 			 <li>customerAdress</li>
 			 <li>customerCity</li>
+			 <li>customerFirstName</li>
+			 <li>customerLastName</li>
 			 <li>customerPhoneNumber</li>
 		 </ul>
 
@@ -43,8 +43,8 @@
 		 <p><strong>orderItem:</strong></p>
 
 		 <ul>
-			 <li>orderItemOrderId <strong>(FK)</strong></li>
 			 <li>orderItemItemId <strong>(FK)</strong></li>
+			 <li>orderItemOrderId <strong>(FK)</strong></li>
 		 </ul>
 
 		 <p><strong>Relations:</strong></p>
@@ -54,7 +54,7 @@
 			 <li>Many items can be in many orders <em>(m to n)</em></li>
 		 </ul>
 
-		 <img src="NewERD.jpg" alt="ERD.jpg">
+		 <img src="please.jpg" alt="itemerd.jpg">
 
 		 <div class="box-4-">
 			<a href="usecase.php"> <-- Page 3 </a>
