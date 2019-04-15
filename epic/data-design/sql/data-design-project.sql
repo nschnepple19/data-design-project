@@ -7,10 +7,10 @@ drop table if exists item;
 
 create table customer (
 	customerId binary(16) not null,
-	customerFirstName varchar(128) not null,
-	customerLastName varchar(128) not null,
 	customerAddress varchar(64) not null,
 	customerCity varchar(64) not null,
+	customerFirstName varchar(128) not null,
+	customerLastName varchar(128) not null,
 	customerPhoneNumber varchar(16),
 	primary key(customerId),
 	index(customerId)
@@ -28,8 +28,8 @@ create table item (
 
 create table customerOrder (
 	customerOrderCustomerId binary(16) not null,
-	orderId varchar(32) not null,
 	orderDateShipped varchar(16) not null,
+	orderId varchar(32) not null,
 	index(orderId),
 	index(customerOrderCustomerId),
 	primary key(orderId),
