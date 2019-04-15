@@ -54,7 +54,7 @@
 			 <li>Many items can be in many orders <em>(m to n)</em></li>
 		 </ul>
 
-		 <img src="please.jpg" alt="itemerd.jpg">
+		 <img src="update.jpg" alt="itemerd.jpg">
 
 		 <div class="box-4-">
 			<a href="usecase.php"> <-- Page 3 </a>
