@@ -1,7 +1,6 @@
-set foreign_key_checks=0; drop table customer; set foreign_key_checks=1;
-drop table if exists customer;
 drop table if exists orderItem;
 drop table if exists customerOrder;
+drop table if exists customer;
 drop table if exists item;
 
 
@@ -42,3 +41,4 @@ create table orderItem (
 	foreign key (orderItemItemId) references item(itemId),
 	foreign key (orderItemOrderId) references customerOrder(orderId)
 );
+
