@@ -41,4 +41,3 @@ create table orderItem (
 	foreign key (orderItemItemId) references item(itemId),
 	foreign key (orderItemOrderId) references customerOrder(orderId)
 );
-

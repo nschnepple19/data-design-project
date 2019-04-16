@@ -28,7 +28,7 @@
 		 <ul>
 			 <li>orderId <strong>(PK)</strong></li>
 			 <li>orderCustomerId <strong>(FK)</strong></li>
-			 <li>orderDateShipped <strong>(FK)</strong></li>
+			 <li>orderDateShipped</li>
 		 </ul>
 
 		 <p><strong>Item:</strong></p>
@@ -54,7 +54,7 @@
 			 <li>Many items can be in many orders <em>(m to n)</em></li>
 		 </ul>
 
-		 <img src="update.jpg" alt="itemerd.jpg">
+		 <img src="final.jpg" class="diagram" alt="itemerd.jpg">
 
 		 <div class="box-4-">
 			<a href="usecase.php"> <-- Page 3 </a>
