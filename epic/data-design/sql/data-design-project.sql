@@ -26,9 +26,9 @@ create table item (
 );
 
 create table customerOrder (
+	customerOrderId binary(16) not null,
 	customerOrderCustomerId binary(16) not null,
 	customerOrderDateShipped varchar(16) not null,
-	customerOrderId varchar(32) not null,
 	index(customerOrderId),
 	index(customerOrderCustomerId),
 	primary key(customerOrderId),
@@ -37,7 +37,7 @@ create table customerOrder (
 
 create table orderItem (
 	orderItemItemId  binary(16) not null,
-	orderItemOrderId varchar(32) not null,
+	orderItemCustomerOrderId binary(16) not null,
 	foreign key (orderItemItemId) references item(itemId),
-	foreign key (orderItemOrderId) references customerOrder(customerOrderId)
+	foreign key (orderItemCustomerOrderId) references customerOrder(customerOrderId)
 );
