@@ -9,7 +9,7 @@ INSERT INTO customer(customerId, customerAddress, customerCity, customerFirstNam
 
 
 
-UPDATE customer SET customerFirstName = "Dr.Kevin" WHERE customerFullName = "Kevin";
+UPDATE customer SET customerFirstName = "Dr.Kevin" WHERE customerFirstName = "Kevin";
 
 
 
@@ -20,7 +20,8 @@ DELETE FROM customer WHERE customerId = UNHEX("5dfd09b2ca1946aa88b0cf39bd89ef3c"
 INSERT INTO customerOrder(customerOrderCustomerId, orderId, orderDateShipped) VALUES (UNHEX("7d64ae772096481fb91c8da22c3dc56f"), UNHEX("d8bc27e9db3e413fa2990f34f6bec93b"), "2019-04-15");
 
 
-SELECT customerAdress FROM customer WHERE UNHEX = ("26690b8185d74dc491f9a06b3303ace5");
+SELECT customerAddress FROM customer WHERE UNHEX = ("26690b8185d74dc491f9a06b3303ace5");
 
 
-SELECT customerId, customerAddress, customerCity, customerFirstName, customerLastName, customerLastName, customerPhoneNumber FROM customer INNERJOIN customerOrder ON customer.customerId = customerOrder.customerOrderId WHERE customer.customerId = ""
+SELECT customerId, customerAddress, customerCity, customerFirstName, customerLastName, customerLastName, customerPhoneNumber FROM customer INNER JOIN customerOrder ON customer.customerId = customerOrder.customerOrderId WHERE customer.customerId = UNHEX("7d64ae772096481fb91c8da22c3dc56f")
+

@@ -27,11 +27,11 @@ create table item (
 
 create table customerOrder (
 	customerOrderCustomerId binary(16) not null,
-	orderDateShipped varchar(16) not null,
-	orderId varchar(32) not null,
-	index(orderId),
+	customerOrderDateShipped varchar(16) not null,
+	customerOrderId varchar(32) not null,
+	index(customerOrderId),
 	index(customerOrderCustomerId),
-	primary key(orderId),
+	primary key(customerOrderId),
 	foreign key(customerOrderCustomerId) references customer(customerId)
 );
 
@@ -39,5 +39,5 @@ create table orderItem (
 	orderItemItemId  binary(16) not null,
 	orderItemOrderId varchar(32) not null,
 	foreign key (orderItemItemId) references item(itemId),
-	foreign key (orderItemOrderId) references customerOrder(orderId)
+	foreign key (orderItemOrderId) references customerOrder(customerOrderId)
 );
