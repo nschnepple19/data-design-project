@@ -21,3 +21,6 @@ INSERT INTO customerOrder(customerOrderCustomerId, orderId, orderDateShipped) VA
 
 
 SELECT customerAdress FROM customer WHERE UNHEX = ("26690b8185d74dc491f9a06b3303ace5");
+
+
+SELECT customerId, customerAddress, customerCity, customerFirstName, customerLastName, customerLastName, customerPhoneNumber FROM customer INNERJOIN customerOrder ON customer.customerId = customerOrder.customerOrderId WHERE customer.customerId = ""
