@@ -20,7 +20,7 @@ create table item (
 	itemId binary(16) not null,
 	itemCost varchar(64) not null,
 	itemName varchar(128) not null,
-	itemQuantity varchar(32) not null,
+	itemQuantity tinyint(32) not null,
 	primary key(itemId),
 	index(itemId)
 );
@@ -28,7 +28,7 @@ create table item (
 create table customerOrder (
 	customerOrderId binary(16) not null,
 	customerOrderCustomerId binary(16) not null,
-	customerOrderDateShipped varchar(16) not null,
+	customerOrderDateShipped datetime not null,
 	index(customerOrderId),
 	index(customerOrderCustomerId),
 	primary key(customerOrderId),

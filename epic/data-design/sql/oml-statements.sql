@@ -25,3 +25,4 @@ SELECT customerAddress FROM customer WHERE customerId = UNHEX("7d64ae772096481fb
 
 SELECT customer.customerId, customer.customerAddress, customer.customerCity, customer.customerFirstName, customer.customerLastName, customer.customerLastName, customer.customerPhoneNumber FROM customer INNER JOIN customerOrder ON customer.customerId = customerOrder.customerOrderId WHERE customer.customerId = UNHEX("7d64ae772096481fb91c8da22c3dc56f");
 
+SELECT COUNT(tweetProfileId) FROM tweet WHERE tweetId = UNHEX("8ae5ccbe5c7242a28a3d0293ea4568ee");
