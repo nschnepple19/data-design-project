@@ -16,7 +16,6 @@ UPDATE customer SET customerFirstName = "Dr.Kevin" WHERE customerFirstName = "Ke
 DELETE FROM customer WHERE customerId = UNHEX("5dfd09b2ca1946aa88b0cf39bd89ef3c");
 
 
-
 INSERT INTO customerOrder(customerOrderId, customerOrderCustomerId, customerOrderDateShipped) VALUES (UNHEX("7d64ae772096481fb91c8da22c3dc56f"), UNHEX("26690b8185d74dc491f9a06b3303ace5"), "2019-04-15");
 
 
@@ -25,4 +24,4 @@ SELECT customerAddress FROM customer WHERE customerId = UNHEX("7d64ae772096481fb
 
 SELECT customer.customerId, customer.customerAddress, customer.customerCity, customer.customerFirstName, customer.customerLastName, customer.customerLastName, customer.customerPhoneNumber FROM customer INNER JOIN customerOrder ON customer.customerId = customerOrder.customerOrderId WHERE customer.customerId = UNHEX("7d64ae772096481fb91c8da22c3dc56f");
 
-SELECT COUNT(tweetProfileId) FROM tweet WHERE tweetId = UNHEX("8ae5ccbe5c7242a28a3d0293ea4568ee");
+SELECT COUNT(tweetProfileId) FROM `like` WHERE tweetId = UNHEX("8ae5ccbe5c7242a28a3d0293ea4568ee");
